@@ -1,1 +1,3 @@
 consosle
+console.log()
+null
