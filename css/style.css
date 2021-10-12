@@ -1,45 +1,40 @@
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: grey;
+    background-color: lightgray;
     font-size: 20px;
 }
 
+.hero-main {
+    background: url(../img/toucan.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-content {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+}
+
 img {
-    width: 100;
+    width: 100%;
     max-width: 400px;
     height: auto;
 }
-
 
 .resp-img {
     width: 100%;
     max-width: 1000px;
     height: auto;
-}
-
-@media only screen and (min-width: 600px){
-
-
-    .flex-parent {
-        display: flex;
-        
-        border: 1px solid yellowgreen;
-        justify-content: flex-end;
-        align-items: center;
-        flex-direction: column;
-        padding: 20px;
-    }
-
-
-
-
-
-}  /* end of media query */
-
-
-
-
-
-.flex-item {
-    border: 3px dotted red;
-    padding: 20px;
 }
