@@ -38,3 +38,47 @@ img {
     max-width: 1000px;
     height: auto;
 }
+
+.flex-parent {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 1;
+    
+    border: 1px green solid;
+    padding: 20px;
+}
+
+.grow {
+    flex-grow: 3;
+    width: 200px;
+}
+
+@media only screen and (min-width: 600px){
+
+
+.flex-parent {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    border: 1px solid purple;
+}
+
+.resp-img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+}
+
+} /* end of media querie */
+
+.flex-item {
+    border: 2px red dotted;
+    padding: 20px;
+}
+    
