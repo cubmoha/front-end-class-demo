@@ -6,7 +6,7 @@ html {
 
 body {
     background-color: lightgray;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .hero-main {
@@ -46,6 +46,7 @@ img {
     align-items: center;
     flex-direction: column;
     flex-basis: 1;
+    flex-wrap: wrap;
     
     border: 1px green solid;
     padding: 20px;
@@ -65,6 +66,7 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    
 
     border: 1px solid purple;
 }
