@@ -80,7 +80,7 @@ img {
 } /* end of media querie */
 
 .flex-item {
-    background-color: blue;
+    background-color: rgb(255, 230, 0);
     border: 2px red dotted;
     padding: 20px;
 }
